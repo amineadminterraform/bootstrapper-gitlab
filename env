@@ -1,0 +1,14 @@
+# Terraform S3 Backend Configuration
+TF_VAR_s3_bucket="state-terraform-s3"
+TF_VAR_s3_endpoint="http://minio.minio:9000"
+TF_VAR_s3_access_key="console"
+TF_VAR_s3_secret_key="console123"
+
+# GitLab Provider Configuration
+TF_VAR_gitlab_base_url="https://gitlab.example.com:32525/"
+TF_VAR_gitlab_token="glpat-56UAHhytbakhqvzFor9B"
+# GitLab User Configuration
+TF_VAR_gitlab_name="Mohamed amine"
+TF_VAR_gitlab_username="amineadmin"
+TF_VAR_gitlab_password="amineadmin123" 
+TF_VAR_gitlab_email="gitlab@aminos.create"
