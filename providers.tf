@@ -10,6 +10,7 @@ terraform {
 
   backend "s3" {
     bucket         = "state-terraform-s3"
+    key            = "goapp"
     endpoint       = "http://minio.minio:9000"
     access_key     = "console"
     secret_key     = "console123"
@@ -20,7 +21,7 @@ terraform {
   }
 }
 provider "gitlab" {
-  base_url = "https://gitlab.example.com:32525/"
+  base_url = "https://gitlab.dev.local:32525/"
   token    = "glpat-56UAHhytbakhqvzFor9B"
   insecure = "true"
 }
