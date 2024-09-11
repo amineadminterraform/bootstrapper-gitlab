@@ -25,7 +25,7 @@ variable "gitlab_base_url" {
 
 variable "gitlab_token" {
   type = string
-  default = "glpat-56UAHhytbakhqvzFor9B"
+  default = "glpat-V71wb9_vh57otFQv7PEU"
 }
 
 variable "gitlab_name" {
