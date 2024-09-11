@@ -20,7 +20,7 @@ variable "s3_secret_key" {
 
 variable "gitlab_base_url" {
   type = string
-  default = "https://gitlab.example.com:32525/"
+  default = "https://gitlab.dev.com:32525/"
 }
 
 variable "gitlab_token" {
