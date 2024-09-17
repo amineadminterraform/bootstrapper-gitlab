@@ -10,12 +10,12 @@ variable "s3_endpoint" {
 
 variable "s3_access_key" {
   type = string
-  default = "console"
+  default = "jZZdiItDzCQgnhDWfbv6"
 }
 
 variable "s3_secret_key" {
   type = string
-  default = "console123"
+  default = "GQX0irqh4lExTlEGHH9KnAG8qTYbAyVVn3jI9XeL"
 }
 
 variable "gitlab_base_url" {
@@ -25,7 +25,7 @@ variable "gitlab_base_url" {
 
 variable "gitlab_token" {
   type = string
-  default = "glpat-V71wb9_vh57otFQv7PEU"
+  default = "glpat-Ky7AL3kxFE2s-ahdsyRF"
 }
 
 variable "gitlab_name" {

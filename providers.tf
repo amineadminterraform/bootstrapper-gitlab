@@ -22,6 +22,6 @@ terraform {
 }
 provider "gitlab" {
   base_url = "https://gitlab.dev.com:32525/"
-  token    = "glpat-56UAHhytbakhqvzFor9B"
+  token    = "glpat-Ky7AL3kxFE2s-ahdsyRF"
   insecure = "true"
 }
