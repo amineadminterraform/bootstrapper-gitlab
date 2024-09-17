@@ -7,6 +7,11 @@ variable "s3_endpoint" {
   type = string
   default = "http://minio.minio:9000"
 }
+variable "folder_path" {
+  type        = string
+  description = "Path to the folder with the files to commit"
+  default     = "./initrepo"  # Adjust this to your folder
+}
 
 variable "s3_access_key" {
   type = string

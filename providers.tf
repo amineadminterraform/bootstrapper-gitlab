@@ -4,7 +4,7 @@ terraform {
   required_providers {
     gitlab = {
       source  = "gitlabhq/gitlab"
-      version = "15.7.1"
+      version = "17.3.1"
     }
   }
 
@@ -12,8 +12,8 @@ terraform {
     bucket         = "state-terraform-s3"
     key            = "goapp"
     endpoint       = "http://minio.minio:9000"
-    access_key     = "console"
-    secret_key     = "console123"
+    access_key     = "jZZdiItDzCQgnhDWfbv6"
+    secret_key     = "GQX0irqh4lExTlEGHH9KnAG8qTYbAyVVn3jI9XeL"
     region         = "us-east-1"
     skip_credentials_validation = true
     skip_metadata_api_check     = true
